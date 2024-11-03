@@ -1,0 +1,25 @@
+/* RegistrationPage.css */
+.registration-bg {
+    background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
+    height: 100vh;
+}
+
+.registration-card {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 0 0.2rem rgba(37, 117, 252, 0.25);
+}
+
+.text-primary {
+    color: #2575fc !important;
+}
+
+.wide-card {
+    max-width: 900px;
+}
